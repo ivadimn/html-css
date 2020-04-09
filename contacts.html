@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Магазин бытовой техники Comfort</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
    <h1>Контакты</h1>
    <hr>
-    <ul>
+    <ul class="menu">
        <li><a href="index.html" >Главная</a></li>
        <li><a href="catalog.html" >Каталог</a></li>
     </ul>
     <hr>    
     <h3>Наш телефон:</h3>
-    <p>+7(812) 222-33-22 <img src="images/call.png" alt=""></p>
+    <p><img src="images/call.png" alt="" width="25">+7(812) 222-33-22 </p>
     <h3>Наш адрес:</h3>
     <p>г. Санкт-Петербург, Средний проспект В.О., 120-Я
     (Только склад!!! Прием покупателей не производится. Возврат товара производится посредством выезда курьера по адресу доставки.)</p>
@@ -22,15 +23,30 @@
     <p>Эл. почта: aaaaa8@inbox.ru<br>
     Skype (звонок): aaaaa.ru
     </p>
-    <h3>Данные для обратной связи</h3>
+    <h3>Напишите нам</h3>
     <form action="">
-    <fieldset>
-        <legend>Контактные данные</legend>
-        Ваше имя: <input type="text" size="30" placeholder="Ваше Имя"><br>
-        Ваш телефон: <input type="tel" size="30" placeholder="Ваш телефон"><br>
-        Email: <input type="email" size="30" placeholder="Электронная почта"><br>
-        <input type="submit" value="Сохранить">
-        <input type="reset" value="Очистить">
+    <fieldset class="cfs">
+        Имя:<br>
+        <input type="text" size="30" placeholder="Ваше Имя" name="name"><br>
+        Пол:<br>
+        Мужской <input type="radio" name="sex"> 
+        Женский <input type="radio" name="sex"><br>
+        Email:<br>
+        <input type="email" size="30" placeholder="Электронная почта" name="email"><br>
+        Тема<br>
+        <input type="list" list="about" name="about" placeholder="Тема">
+        <datalist id="about">
+            <option>Отзыв</option>
+            <option>Пожелания</option>
+            <option>Что-то не понравилось</option>
+            <option>Благодарность</option>
+        </datalist><br>
+        Текст сообщения<br>
+        <textarea class="message" name="Text1" cols="42" rows="5"></textarea><br>
+        Контактный телефон:<br>
+        <input type="tel" size="30" placeholder="Ваш телефон"><br>
+        <input type="image" src="images/imgbutton.gif">
+        
     </fieldset>
     </form>
     <hr>
