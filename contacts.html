@@ -6,50 +6,77 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-   <h1>Контакты</h1>
-   <hr>
-    <ul class="menu">
-       <li><a href="index.html" >Главная</a></li>
-       <li><a href="catalog.html" >Каталог</a></li>
-    </ul>
-    <hr>    
-    <h3>Наш телефон:</h3>
-    <p><img src="images/call.png" alt="" width="25">+7(812) 222-33-22 </p>
-    <h3>Наш адрес:</h3>
-    <p>г. Санкт-Петербург, Средний проспект В.О., 120-Я
-    (Только склад!!! Прием покупателей не производится. Возврат товара производится посредством выезда курьера по адресу доставки.)</p>
-    <img src="images/address.png" alt="">
-    <h3>Другие контакты:</h3>
-    <p>Эл. почта: aaaaa8@inbox.ru<br>
-    Skype (звонок): aaaaa.ru
-    </p>
-    <h3>Напишите нам</h3>
-    <form action="">
-    <fieldset class="cfs">
-        Имя:<br>
-        <input type="text" size="30" placeholder="Ваше Имя" name="name"><br>
-        Пол:<br>
-        Мужской <input type="radio" name="sex"> 
-        Женский <input type="radio" name="sex"><br>
-        Email:<br>
-        <input type="email" size="30" placeholder="Электронная почта" name="email"><br>
-        Тема<br>
-        <input type="list" list="about" name="about" placeholder="Тема">
-        <datalist id="about">
-            <option>Отзыв</option>
-            <option>Пожелания</option>
-            <option>Что-то не понравилось</option>
-            <option>Благодарность</option>
-        </datalist><br>
-        Текст сообщения<br>
-        <textarea class="message" name="Text1" cols="42" rows="5"></textarea><br>
-        Контактный телефон:<br>
-        <input type="tel" size="30" placeholder="Ваш телефон"><br>
-        <input type="image" src="images/imgbutton.gif">
-        
-    </fieldset>
-    </form>
-    <hr>
-    <p>Все права защищены &copy;</p>
+    <div class="container">
+         <div class="header">
+            <div class="logo" ><img src="images/logo.png" width="100"></div>
+            <div class="title_block">
+                <div class="caption">
+                    <span class="caption_text">Интернет-гипермаркет бытовой техники Комфорт</span>
+                </div>
+                 <div class="menu_block">
+                        <ul class="menu">
+                            <li><a href="index.html" >Главная</a></li>
+                            <li><a href="catalog.html" >Каталог</a></li>
+                         </ul>
+                </div>
+                <div class="info_block">
+                    <div class="page_caption">
+                        <span class="page_caption_text">Контакты</span>
+                    </div>
+                    <div class="info">
+                        <span class="info_text">8 800 200 00 00</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr>
+		
+        <div class="content">
+            <h3>Наш телефон:</h3>
+            <p><img src="images/call.png" alt="" width="25">+7(812) 222-33-22 </p>
+            <h3>Наш адрес:</h3>
+            <p>г. Санкт-Петербург, Средний проспект В.О., 120-Я
+            (Только склад!!! Прием покупателей не производится. Возврат товара производится посредством выезда курьера по адресу доставки.)</p>
+            <img src="images/address.png" alt="" width=100% height=374px>
+            <h3>Другие контакты:</h3>
+            <p>Эл. почта: aaaaa8@inbox.ru<br>
+            Skype (звонок): aaaaa.ru
+            </p>
+
+            <form action="">
+            <fieldset class="cfs">
+                <legend>Напишите нам</legend>
+                Имя:<br>
+                <input type="text" class="input_text" size="30" placeholder="Ваше Имя" name="name"><br>
+                <fieldset class="radio_group">
+                <legend>Пол:</legend>
+                    Мужской <input type="radio" name="sex"> 
+                    Женский <input type="radio" name="sex"><br>
+                </fieldset>    
+                Email:<br>
+                <input class="input_text" type="email" size="30" placeholder="Электронная почта" name="email"><br>
+                Тема<br>
+                <input class="input_text" type="list" list="about" name="about" placeholder="Тема">
+                <datalist id="about">
+                    <option>Отзыв</option>
+                    <option>Пожелания</option>
+                    <option>Что-то не понравилось</option>
+                    <option>Благодарность</option>
+                </datalist><br>
+                Текст сообщения<br>
+                <textarea class="message" name="Text1" cols="42" rows="5"></textarea><br>
+                Контактный телефон:<br>
+                <input class="input_text" type="tel" size="30" placeholder="Ваш телефон"><br>
+                <input class="input_text" type="submit">
+
+            </fieldset>
+            </form>
+            <hr>
+        </div>    
+        <div class="footer">
+				&copy;&nbsp;Все права защищены
+		</div> 
+    </div>
+    
 </body>
 </html>

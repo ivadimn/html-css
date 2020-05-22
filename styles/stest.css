@@ -1,0 +1,105 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: cornflowerblue;
+    height: 140px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #ccc;
+    float: left;
+}
+
+.title_block {
+    height: 140px;
+    background-color: aqua;
+    overflow: hidden;
+    
+}
+
+.caption {
+    height: 28px;
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.caption_text {
+    color: antiquewhite;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu_block {
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: azure;
+    text-align: right;
+}
+
+.info_block {
+    height: 24px;
+    background-color: antiquewhite;
+    margin-top: 26px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.page_caption {
+    width: 250px;
+    background-color: azure;
+    float: left;
+    
+}
+
+.page_caption_text {
+    color: blue;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.info {
+    background-color: burlywood;
+    text-align: right;
+}
+
+.info_text {
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+.menu li {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    text-align: right;
+}
+
+.footer {
+    height: 30px;
+    color: black;
+    background-color: #ccc;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+    
